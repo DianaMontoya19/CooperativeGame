@@ -686,7 +686,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1159998257}
         m_TargetAssemblyTypeName: Rooms, Assembly-CSharp
         m_MethodName: JoinRoom
         m_Mode: 1
@@ -1751,8 +1751,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ab6b8a9f3c72fd428c271fc54863824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  joinInputField: {fileID: 0}
-  createInputField: {fileID: 0}
+  joinInputField: {fileID: 732503559}
+  createInputField: {fileID: 2018379927}
   roomName: 
 --- !u!1 &1379505857
 GameObject:
@@ -1942,7 +1942,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1159998257}
         m_TargetAssemblyTypeName: Rooms, Assembly-CSharp
         m_MethodName: CreateRoom
         m_Mode: 1

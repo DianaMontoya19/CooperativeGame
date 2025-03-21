@@ -1,0 +1,599 @@
+fileFormatVersion: 2
+guid: 019117bb871c80849a7088fba29d1f1b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1262115075052168021
+    second: Watergirl_0
+  - first:
+      213: -3924766825647476486
+    second: Watergirl_1
+  - first:
+      213: -6436708563013905004
+    second: Watergirl_2
+  - first:
+      213: 2499490536495115190
+    second: Watergirl_3
+  - first:
+      213: 3490737465124002073
+    second: Watergirl_4
+  - first:
+      213: -6964411816657427631
+    second: Watergirl_5
+  - first:
+      213: 4330848876096343286
+    second: Watergirl_6
+  - first:
+      213: 732552895694383581
+    second: Watergirl_7
+  - first:
+      213: 352600264360623226
+    second: Watergirl_8
+  - first:
+      213: -1489422100689041562
+    second: Watergirl_9
+  - first:
+      213: -4357902373255472461
+    second: Watergirl_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Watergirl_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2365
+        width: 203
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac99d5b6011c7ee0800000000000000
+      internalID: -1262115075052168021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watergirl_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 745
+        width: 368
+        height: 372
+      alignment: 9
+      pivot: {x: 0.75384665, y: 0.5948193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9191dd4da37917030800000000000000
+      internalID: 3490737465124002073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watergirl_11
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 2363
+        width: 198
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0992c0ec61760747aa5c2ab1b7ee6e8
+      internalID: 516542464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watergirl_12
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 2364
+        width: 198
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cff133524eda946b39740a956f2f25
+      internalID: -350045439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watergirl_13
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2365
+        width: 198
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a83d5a5b1c23641a2d91839d3feda8
+      internalID: -986497424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watergirl_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 207
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6568b9ade6670a74a8b07d50281bd604
+      internalID: -943386064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watergirl_15
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1791
+        width: 207
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7b289e56b3bd74c97abb0a59e8fb78
+      internalID: -908565331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watergirl_16
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1792
+        width: 207
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776eab816fcf43b4fbf9b80c7949a79d
+      internalID: 446082745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watergirl_17
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1792
+        width: 207
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef29bca6d15c7f2408286a7d380ab519
+      internalID: 1527240112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watergirl_18
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1792
+        width: 207
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f15ea22fb440b147864ee87dac69199
+      internalID: 676292847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watergirl_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1190
+        width: 207
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9708d5b8612738f4db72b8d7387445af
+      internalID: -372830815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watergirl_19
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1190
+        width: 207
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ed012d8b4645c4aa8c85fd4c5dd84f
+      internalID: 2051397808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watergirl_20
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1190
+        width: 207
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000de122f11496f4f9b9c431d32ab756
+      internalID: -2145512159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watergirl_21
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1190
+        width: 207
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a069cbeb9ee1ba49805e13abd51f770
+      internalID: 658431632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watergirl_7
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 745
+        width: 368
+        height: 372
+      alignment: 9
+      pivot: {x: 0.75384665, y: 0.5948193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ea697f6d352dc4594c2cf4026ffa3c
+      internalID: -1347733936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watergirl_1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 745
+        width: 368
+        height: 372
+      alignment: 9
+      pivot: {x: 0.75384665, y: 0.5948193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe766dedf06ac234099bc5b72d4276a7
+      internalID: 303022318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watergirl_5
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 745
+        width: 368
+        height: 372
+      alignment: 9
+      pivot: {x: 0.75384665, y: 0.5948193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2557e5f3834c0124a9769d74ced9ca55
+      internalID: 546351898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watergirl_6
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 745
+        width: 368
+        height: 372
+      alignment: 9
+      pivot: {x: 0.75384665, y: 0.5948193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50255bf2ca03b954397e8c0482a230d6
+      internalID: -753116595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watergirl_8
+      rect:
+        serializedVersion: 2
+        x: 2276
+        y: 745
+        width: 368
+        height: 372
+      alignment: 9
+      pivot: {x: 0.75384665, y: 0.5948193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e4326277c0b21449ccf2d6ba18258d
+      internalID: 1863542022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 21ba5c4db5c1e4d49a6a7e43fdd234bd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Watergirl_1: 303022318
+      Watergirl_11: 516542464
+      Watergirl_12: -350045439
+      Watergirl_13: -986497424
+      Watergirl_14: 1103505166
+      Watergirl_15: -908565331
+      Watergirl_16: 446082745
+      Watergirl_17: 1527240112
+      Watergirl_18: 676292847
+      Watergirl_19: 2051397808
+      Watergirl_2: -943386064
+      Watergirl_20: -2145512159
+      Watergirl_21: 658431632
+      Watergirl_3: -372830815
+      Watergirl_5: 546351898
+      Watergirl_6: -753116595
+      Watergirl_7: -1347733936
+      Watergirl_8: 1863542022
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

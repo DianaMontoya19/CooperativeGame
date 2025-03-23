@@ -1,3 +1,4 @@
+using System;
 using Photon.Pun;
 using UnityEngine;
 
@@ -6,7 +7,8 @@ namespace Script.Platform
     public class InteractPlatform : MonoBehaviourPunCallbacks
     {
         public bool activatePlatform;
-        [SerializeField] private Animator anim;
+        public Animator anim;
+        
 
         public void GetAnim()
         {
@@ -19,5 +21,6 @@ namespace Script.Platform
         {
             anim.enabled = true;
         }
+
     }
 }

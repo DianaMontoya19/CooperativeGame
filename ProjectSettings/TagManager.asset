@@ -8,6 +8,7 @@ TagManager:
   - Platform
   - PL2
   - PL1
+  - Player2
   layers:
   - Default
   - TransparentFX

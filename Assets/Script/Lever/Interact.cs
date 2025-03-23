@@ -2,11 +2,13 @@ using System;
 using Photon.Pun;
 using Unity.Netcode;
 using UnityEngine;
+using RpcTarget = Photon.Pun.RpcTarget;
 
 public class Interact : MonoBehaviourPunCallbacks
 {
 
     private Animator anim;
+    public string namePlayer;
 
     public void Start()
     {
@@ -15,17 +17,14 @@ public class Interact : MonoBehaviourPunCallbacks
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag(namePlayer))
         {
-            ActivateLever();
-            // if (photonView.IsMine)
-            // {
-            //     photonView.RPC("ActivateLever", RpcTarget.All);
-            // }
+           
+            photonView.RPC("ActivateLever", RpcTarget.All);
         }
     }
     [PunRPC]
-    void ActivateLever()
+    public void ActivateLever()
     {
         anim.SetBool("LeverActive", true);
         Debug.Log("Activar palanca");

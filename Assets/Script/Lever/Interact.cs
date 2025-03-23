@@ -1,5 +1,6 @@
 using System;
 using Photon.Pun;
+using Unity.Netcode;
 using UnityEngine;
 
 public class Interact : MonoBehaviourPunCallbacks
@@ -23,6 +24,7 @@ public class Interact : MonoBehaviourPunCallbacks
             // }
         }
     }
+    [PunRPC]
     void ActivateLever()
     {
         anim.SetBool("LeverActive", true);

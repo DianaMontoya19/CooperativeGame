@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using Photon.Pun;
+using Script.Lever;
 using Script.Platform;
 using UnityEngine;
 
@@ -10,7 +11,6 @@ public class PlayerController : MonoBehaviourPunCallbacks
     private Animator anim;
     private SpriteRenderer sp;
     [SerializeField] private float speed, jumpForce;
-    private GameObject platform;
     [SerializeField] private string detectionPlayer;
     private Vector2 savePoint;
     void Start()
@@ -18,7 +18,6 @@ public class PlayerController : MonoBehaviourPunCallbacks
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         sp = GetComponent<SpriteRenderer>();
-        platform = FindObjectOfType<InteractPlatform>().gameObject;
         savePoint = transform.position;
     }
 
@@ -56,21 +55,27 @@ public class PlayerController : MonoBehaviourPunCallbacks
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Platform"))
+        if (photonView.IsMine)
         {
-            platform.GetComponent<InteractPlatform>().ActivateAnim();
+            if (other.gameObject.CompareTag("Platform"))
+            {
 
-        }
+                LeverController.Instance.platformActive = true;
 
-        if (other.gameObject.CompareTag("block"))
-        {
-            platform.GetComponent<InteractPlatform>().ActivateAnim();
-            
-        }
-        if (other.gameObject.CompareTag(detectionPlayer))
-        {
-            StartCoroutine(TimeToReset());
-            Debug.Log("moriste");
+            }
+
+            if (other.gameObject.CompareTag("block"))
+            {
+
+                LeverController.Instance.blockActive = true;
+
+            }
+
+            if (other.gameObject.CompareTag(detectionPlayer))
+            {
+                StartCoroutine(TimeToReset());
+                Debug.Log("moriste");
+            }
         }
     }
 

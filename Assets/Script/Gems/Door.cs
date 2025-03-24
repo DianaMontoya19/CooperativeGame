@@ -1,5 +1,7 @@
 using System;
+using System.Collections.Generic;
 using Photon.Pun;
+using Script.Lever;
 using UnityEngine;
 
 namespace Script.Gems
@@ -8,9 +10,9 @@ namespace Script.Gems
     {
         public string player;
         public SpriteRenderer door;
-        public int detectedPlayer;
+        public bool activePlayer1, activePlayer2;
         public static Door Instance;
-
+        
         private void Start()
         {
             Instance = this;
@@ -18,19 +20,20 @@ namespace Script.Gems
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-           if (other.gameObject.CompareTag(player))
+           if (other.gameObject.CompareTag("Player"))
            {
-                    photonView.RPC("ChangeDoorColor", RpcTarget.All);
-                    Debug.Log("detecto player");
-                    detectedPlayer = 1;
-                    photonView.RPC("DestroyPlayer", RpcTarget.All, other.gameObject.GetComponent<PhotonView>().ViewID);
-            }
+                activePlayer1 = true;
+              
+               photonView.RPC("ChangeDoorColor", RpcTarget.All);
+                int playerViewID = other.gameObject.GetComponent<PhotonView>().ViewID;
+                DestroyPlayer(playerViewID);
+                
+           }
         }
         [PunRPC]
         private void ChangeDoorColor()
         {
-            door.color = Color.black;  
-            
+            door.color = Color.black;
         }
         [PunRPC]
         private void DestroyPlayer(int playerViewID)
@@ -42,5 +45,6 @@ namespace Script.Gems
                 
             }
         }
+       
     }
 }

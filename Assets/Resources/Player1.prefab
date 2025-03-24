@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 8946219768485844963}
   - component: {fileID: 3031432346420870210}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Player1
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -233,3 +233,4 @@ MonoBehaviour:
   speed: 5
   jumpForce: 5
   detectionPlayer: PL1
+  detectedPlayer: 0

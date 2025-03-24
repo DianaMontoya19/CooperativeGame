@@ -153,6 +153,7 @@ MonoBehaviour:
   namePlayer: Player2
   door: {fileID: 3929522958748515090, guid: 9a5ba7b7a5c8b5644b5bc8a301daaaa4, type: 3}
   doorPosition: {x: -6.2214, y: -2.6366, z: 0}
+  count: 0
 --- !u!60 &67909684
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2541,6 +2542,7 @@ MonoBehaviour:
   namePlayer: Player
   door: {fileID: 88687586833087353, guid: 1d7f7abedc9545d41b4e87239f128a8c, type: 3}
   doorPosition: {x: 1.96, y: -2.6366, z: 0}
+  count: 0
 --- !u!60 &1654405392
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2913,10 +2915,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platformActive: 0
   blockActive: 0
+  player1Active: 0
+  player2Active: 0
   _obstacle:
   - {fileID: 1650222362}
   - {fileID: 515100758}
+  win: {fileID: 293997608}
   countPlayer: 0
+  playerID: 
 --- !u!4 &2032747624
 Transform:
   m_ObjectHideFlags: 0

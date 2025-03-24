@@ -9,6 +9,7 @@ TagManager:
   - PL2
   - PL1
   - Player2
+  - Door
   layers:
   - Default
   - TransparentFX

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using Photon.Pun;
+using Script.Gems;
 using Script.Lever;
 using Script.Platform;
 using UnityEngine;
@@ -13,6 +14,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
     [SerializeField] private float speed, jumpForce;
     [SerializeField] private string detectionPlayer;
     private Vector2 savePoint;
+    public int detectedPlayer = 0;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -55,8 +57,6 @@ public class PlayerController : MonoBehaviourPunCallbacks
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (photonView.IsMine)
-        {
             if (other.gameObject.CompareTag("Platform"))
             {
 
@@ -76,8 +76,17 @@ public class PlayerController : MonoBehaviourPunCallbacks
                 StartCoroutine(TimeToReset());
                 Debug.Log("moriste");
             }
-        }
+        
     }
+
+    // private void OnTriggerEnter2D(Collider2D other)
+    // {
+    //     if (other.gameObject.CompareTag("Door"))
+    //     {
+    //         detectedPlayer++;
+    //         
+    //     }
+    // }
 
     IEnumerator TimeToReset()
     {

@@ -40,6 +40,12 @@ MonoBehaviour:
   - ActivateAnim
   - ChangeDoorColor
   - DestroyPlayer
+  - OnBothPlayersEntered
+  - CheckBothPlayersPassed
+  - InstantiateDoor
+  - AddPlayer
+  - RemovePlayer
+  - SetPlayers
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

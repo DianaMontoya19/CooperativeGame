@@ -341,7 +341,7 @@ GameObject:
   - component: {fileID: 8613914102295766521}
   m_Layer: 0
   m_Name: DoorBoy
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -454,7 +454,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: Player
   door: {fileID: 5294466879325182262}
-  detectedPlayer: 0
 --- !u!61 &8613914102295766521
 BoxCollider2D:
   m_ObjectHideFlags: 0

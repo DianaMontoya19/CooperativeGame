@@ -11,12 +11,11 @@ GameObject:
   - component: {fileID: 7007901149340694985}
   - component: {fileID: 1893026242894915220}
   - component: {fileID: 3550449734072611001}
-  - component: {fileID: 5689935471833994522}
   - component: {fileID: 1199884070136152264}
-  - component: {fileID: 1928861617836314967}
+  - component: {fileID: 3273435084645019952}
   m_Layer: 0
   m_Name: DoorGirl
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115,21 +114,6 @@ MonoBehaviour:
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &5689935471833994522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 88687586833087353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 694b6a86362a46899e2ae9384899a17a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: Player2
-  door: {fileID: 1746280631732997680}
-  detectedPlayer: 0
 --- !u!61 &1199884070136152264
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -176,7 +160,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.56471384, y: 0.78835654}
   m_EdgeRadius: 0
---- !u!114 &1928861617836314967
+--- !u!114 &3273435084645019952
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -185,19 +169,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 88687586833087353}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Script: {fileID: 11500000, guid: f9ee81ace63b4f38991a91b444380085, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObservedComponentsFoldoutOpen: 1
-  Group: 0
-  prefixField: -1
-  Synchronization: 3
-  OwnershipTransfer: 0
-  observableSearch: 2
-  ObservedComponents: []
-  sceneViewId: 0
-  InstantiationId: 0
-  isRuntimeInstantiated: 0
+  activePlayer2: 0
 --- !u!1 &710234257990822718
 GameObject:
   m_ObjectHideFlags: 0

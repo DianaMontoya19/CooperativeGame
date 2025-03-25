@@ -8,9 +8,8 @@ namespace Script.Gems
 {
     public class Door : MonoBehaviourPunCallbacks
     {
-        public string player;
         public SpriteRenderer door;
-        public bool activePlayer1, activePlayer2;
+        public bool activePlayer1;
         public static Door Instance;
         
         private void Start()
@@ -22,7 +21,7 @@ namespace Script.Gems
         {
            if (other.gameObject.CompareTag("Player"))
            {
-                activePlayer1 = true;
+               LeverController.Instance.player1Active = true;
               
                photonView.RPC("ChangeDoorColor", RpcTarget.All);
                 int playerViewID = other.gameObject.GetComponent<PhotonView>().ViewID;
